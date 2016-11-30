@@ -1,2 +1,4 @@
 # dotfiles
-dotfiles for bash, vim, etc.
+Dotfiles for bash, vim, etc. for use in Linux.
+Files should be in $HOME directory unless otherwise stated
+
