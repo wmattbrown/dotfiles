@@ -1,0 +1,43 @@
+define fact(x) {
+	if (x>1) {
+		return (x * fact(x-1))
+		}
+	return (1)
+	}
+
+pi=4*a(1)
+
+define sin(x) {
+	return s(x*pi/180)
+	}
+
+define cos(x) {
+	return c(x*pi/180)
+	}
+
+define tan(x) {
+	return s(x*pi/180)/c(x*pi/180)
+	}
+
+define asin(x) {
+	return a(x/sqrt(1-x^2))*180/pi
+	}
+
+define acos(x) {
+	return a(sqrt(1-x^2)/x)
+	}
+
+define atan(x) {
+	return a(x)*180/pi
+	}
+
+define pow(base,exp){
+	return e(l(base)*exp)
+	}
+
+define mod(n,d){
+	scale=0
+	temp=n%d
+	scale=20
+	return temp
+}
